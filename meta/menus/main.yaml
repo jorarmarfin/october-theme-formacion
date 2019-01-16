@@ -1,0 +1,11 @@
+name: main
+items:
+    -
+        title: inicio
+        type: url
+        url: '/#'
+        code: main
+        viewBag:
+            isHidden: '0'
+            cssClass: main
+            isExternal: '0'
