@@ -24,9 +24,13 @@ items:
             isExternal: '0'
     -
         title: Item3
+        nesting: ''
         type: url
         url: '/#'
         code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
         viewBag:
             isHidden: '0'
             cssClass: ''
