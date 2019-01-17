@@ -7,5 +7,27 @@ items:
         code: main
         viewBag:
             isHidden: '0'
-            cssClass: main
+            cssClass: dropdown
+            isExternal: '0'
+    -
+        title: item2
+        nesting: ''
+        type: url
+        url: '/#'
+        code: item2
+        reference: ''
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Item3
+        type: url
+        url: '/#'
+        code: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
             isExternal: '0'
