@@ -1725,6 +1725,10 @@ html .word-rotator.loading-bar-light .word-rotator-words::after {
 	color: #ffffff !important;
 }
 
+.process-connecting-line .connecting-line {
+	background: #0088cc;
+}
+
 html section.section-primary {
 	background-color: #0088cc !important;
 	border-color: #0077b3 !important;

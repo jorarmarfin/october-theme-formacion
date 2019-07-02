@@ -1,7 +1,7 @@
 /*
 Name: 			Theme Base
 Written by: 	Okler Themes - (http://www.okler.net)
-Theme Version:	7.1.0
+Theme Version:	7.2.0
 */
 
 // Theme
@@ -304,6 +304,7 @@ window.theme.fn = {
 					
 					setTimeout(function(){
 					  	var itemsActive    = $el.find('.owl-item.active'),
+					  		indexCenter    = Math.floor( ($el.find('.owl-item.active').length - 1) / 2 ),
 					  		itemCenter     = itemsActive.eq(indexCenter);
 
 					  	itemCenter.addClass('current');

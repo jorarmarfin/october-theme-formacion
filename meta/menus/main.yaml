@@ -2,13 +2,27 @@ name: main
 items:
     -
         title: inicio
+        nesting: ''
         type: url
         url: '/#'
         code: main
+        reference: ''
+        cmsPage: ''
+        replace: ''
         viewBag:
             isHidden: '0'
             cssClass: dropdown
             isExternal: '0'
+        items:
+            -
+                title: Subitem
+                type: url
+                url: /
+                code: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
     -
         title: item2
         nesting: ''
